@@ -1,4 +1,4 @@
-import { load, FileSystemTree, WebContainer } from '@webContainer/api';
+import { load, FileSystemTree, WebContainer } from '@webcontainer/api';
 import LogConverter from 'ansi-to-html';
 
 export class Logger {
