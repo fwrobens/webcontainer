@@ -11,7 +11,7 @@
     "watch": "webpack --watch",
     "serve": "webpack serve",
     "start": "node server.js",
-    "prepublish": "node prepare-publish.js",
+    "prepublish": "npm run build && node prepare-publish.js",
     "publish": "firebase deploy"
   },
   "author": "",
